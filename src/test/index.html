@@ -1,0 +1,7 @@
+<template>
+	<h4>Test Seite aufgerufen mit ${heading}</h4>
+	 <require from="myCustomElement/say-hello"></require>
+
+    <input type="text" ref="name">
+    <say-hello to.bind="heading"></say-hello>
+</template>
